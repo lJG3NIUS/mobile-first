@@ -101,7 +101,7 @@ main > p{
     line-height: 1em;
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.493); 
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 main > p#lucas{
@@ -116,9 +116,15 @@ main > p#lucas:hover{
 }
 
 div#video{
+    position: relative;
+}
+
+div#video > iframe{
     position: absolute;
-    left: 45px;
-    top: 510px;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
 }
 
 
