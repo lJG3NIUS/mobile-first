@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/mobile-first.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>OPGAME</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <img src="img/logotipo-removebg-preview.png" alt="logo">
+        <h1><a href="#">OPGAME</a></h1>
+        <div><span class="material-icons" onclick="clickMenu()">menu</span></div>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">jogos</a></li>
+                <li><a href="#">premiações</a></li>
+                <li><a href="#">consoles</a></li>
+                <li><a href="#">e-sports</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <div id="video">
+            <iframe width="300" height="315" src="https://www.youtube.com/embed/r4yCbxX1Nxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>
+            Os melhores jogos<br>
+            De videogame do ano<br>   
+        </p><p id="lucas"> Lucas Jefferson</p>
+    </main>
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 992){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+               itens.style.display = 'none'
+           } else{
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
