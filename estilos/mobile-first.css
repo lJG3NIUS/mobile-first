@@ -144,7 +144,8 @@ div#jogos img{
     position: relative;
     width: 200px;
     top: 500px;
-    left: 35px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
