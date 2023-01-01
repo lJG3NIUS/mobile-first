@@ -121,11 +121,32 @@ div#video{
 
 div#video > iframe{
     position: absolute;
-    top: 300px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     width: 300px;
 }
+
+div#jogos{
+    position: relative;
+}
+
+div#jogos h1{
+    text-align: center;
+    font-family: var(--font-padrao);
+    color: white;
+    letter-spacing: 5px;
+    transform: translateY(450px);
+    font-size: 3em;
+}
+
+div#jogos img{
+    position: relative;
+    width: 200px;
+    top: 500px;
+    left: 35px;
+}
+
 
 
 
