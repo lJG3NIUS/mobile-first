@@ -147,9 +147,9 @@ div#jogos > h1 > a{
 
 div#jogos img{
     position: relative;
-    width: 150px;
+    width: 200px;
     top: 500px;
-    left: 100px;
+    left: 2px;
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.438);
 }
 
