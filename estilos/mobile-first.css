@@ -135,12 +135,13 @@ div#jogos{
 div#jogos > h1 > a{
     display: block;
     text-decoration: none;
+    font-style: italic;
     text-align: center;
     font-family: var(--font-padrao);
     color: white;
     letter-spacing: 5px;
     transform: translateY(400px);
-    font-size: 2em;
+    font-size: 1.7em;
 
 }
 
