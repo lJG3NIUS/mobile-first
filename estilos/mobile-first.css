@@ -130,6 +130,8 @@ div#video > iframe{
 
 div#jogos{
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 div#jogos > h1 > a{
