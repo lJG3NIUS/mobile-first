@@ -170,6 +170,46 @@ section#jogos > .info{
     transform: translateX(-50%);
 }
 
+section#redes{
+    position: relative;
+    display: block;
+    top: 550px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.158) ;
+    width: 340px;
+    border-radius: 5px;
+}
+
+section#redes p{
+    font: bolder 1.5em var(--font-google);
+    text-align: center;
+    color: white;
+    margin: 40px 0px;
+}
+
+
+section#redes img{
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 65px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+section#redes a#youtube{
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid #D43F10;
+    background-color: #D43F10;
+    padding: 10px;
+    color: white;
+    font-family: var(--font-google);
+    font-weight: bold;
+    font-size: 1.2em;
+}
 
 
 
